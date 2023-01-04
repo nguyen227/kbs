@@ -46,25 +46,25 @@ NHOM_THUC_PHAM = {
 }
 
 THUC_PHAM = {
-    'da vịt': {'calo': '1000'}, 'nước đường': {'calo': '1000'}, 'cá hồi': {'calo': '1000'}, 'thịt trâu': {'calo': '1000'},
-    'mỡ động vật': {'calo': '1000'}, 'xoài': {'calo': '1000'}, 'gân bò': {'calo': '1000'}, 'lòng đỏ trứng': {'calo': '1000'},
-    'nước trái cây đóng hộp': {'calo': '1000'}, 'súp lơ trắng': {'calo': '1000'}, 'hạt chia': {'calo': '1000'}, 'hạt lanh': {'calo': '1000'},
-    'dầu olive': {'calo': '1000'}, 'dứa': {'calo': '1000'}, 'cải xoong': {'calo': '1000'}, 'bơ': {'calo': '1000'}, 'bưởi': {'calo': '1000'},
-    'su hào': {'calo': '1000'}, 'chè': {'calo': '1000'}, 'nghệ': {'calo': '1000'}, 'quả kiwi': {'calo': '1000'}, 'tỏi': {'calo': '1000'},
-    'đậu phộng': {'calo': '1000'}, 'cải brussels': {'calo': '1000'}, 'nước ngọt': {'calo': '1000'}, 'rượu': {'calo': '1000'}, 'thịt chó': {'calo': '1000'},
-    'bánh mì': {'calo': '1000'}, 'thịt bò': {'calo': '1000'}, 'ớt': {'calo': '1000'}, 'cải thìa': {'calo': '1000'}, 'nội tạng động vật': {'calo': '1000'},
-    'rau chân vịt': {'calo': '1000'}, 'dưa hấu': {'calo': '1000'}, 'bánh kem': {'calo': '1000'}, 'dầu đậu tương': {'calo': '1000'}, 'hạt dẻ cười': {'calo': '1000'},
-    'chanh leo': {'calo': '1000'}, 'mỡ ngỗng': {'calo': '1000'}, 'hành': {'calo': '1000'}, 'dầu nhuyễn thể': {'calo': '1000'}, 'đu đủ': {'calo': '1000'},
-    'mỡ cá': {'calo': '1000'}, 'quả bơ': {'calo': '1000'}, 'lê': {'calo': '1000'}, 'dưa lưới vàng': {'calo': '1000'}, 'da lợn': {'calo': '1000'}, 'mỡ gà': {'calo': '1000'}, 'táo': {'calo': '1000'},
-    'ớt chuông': {'calo': '1000'}, 'khoai tây': {'calo': '1000'}, 'củ cải đường': {'calo': '1000'}, 'cá ngừ': {'calo': '1000'}, 'cam': {'calo': '1000'},
-    'cá thu': {'calo': '1000'}, 'khoai lang': {'calo': '1000'}, 'cà rốt': {'calo': '1000'}, 'dầu hào': {'calo': '1000'}, 'thuốc lá': {'calo': '1000'},
-    'mứt': {'calo': '1000'}, 'kem': {'calo': '1000'}, 'dầu hướng dương': {'calo': '1000'}, 'gạo': {'calo': '1000'}, 'mỡ lợn': {'calo': '1000'},
-    'mít': {'calo': '1000'}, 'tiêu': {'calo': '1000'}, 'nước tăng lực': {'calo': '1000'}, 'mỡ bò': {'calo': '1000'}, 'dâu tây': {'calo': '1000'},
-    'ổi': {'calo': '1000'}, 'cá trích': {'calo': '1000'}, 'bia': {'calo': '1000'}, 'óc lợn': {'calo': '1000'}, 'kẹo': {'calo': '1000'},
-    'mật ong': {'calo': '1000'}, 'tôm': {'calo': '1000'}, 'quả lê': {'calo': '1000'}, 'hạt hạnh nhân': {'calo': '1000'}, 'bông cải xanh': {'calo': '1000'},
-    'dầu ngô': {'calo': '1000'}, 'ngô': {'calo': '1000'}, 'chuối': {'calo': '1000'}, 'hạnh nhân': {'calo': '1000'}, 'hạt điều': {'calo': '1000'},
-    'óc chó': {'calo': '1000'}, 'gừng': {'calo': '1000'}, 'quả óc chó': {'calo': '1000'}, 'chân giò': {'calo': '1000'}, 'thịt dê': {'calo': '1000'},
-    'mỡ cừu': {'calo': '1000'}, 'da gà': {'calo': '1000'}, 'tép': {'calo': '1000'}, 'cua': {'calo': '1000'}, 'ghẹ': {'calo': '1000'}
+    'da vịt', 'nước đường', 'cá hồi', 'thịt trâu',
+    'mỡ động vật', 'xoài', 'gân bò', 'lòng đỏ trứng',
+    'nước trái cây đóng hộp', 'súp lơ trắng', 'hạt chia', 'hạt lanh',
+    'dầu olive', 'dứa', 'cải xoong', 'bơ', 'bưởi',
+    'su hào', 'chè', 'nghệ', 'quả kiwi', 'tỏi',
+    'đậu phộng', 'cải brussels', 'nước ngọt', 'rượu', 'thịt chó',
+    'bánh mì', 'thịt bò', 'ớt', 'cải thìa', 'nội tạng động vật',
+    'rau chân vịt', 'dưa hấu', 'bánh kem', 'dầu đậu tương', 'hạt dẻ cười',
+    'chanh leo', 'mỡ ngỗng', 'hành', 'dầu nhuyễn thể', 'đu đủ',
+    'mỡ cá', 'quả bơ', 'lê', 'dưa lưới vàng', 'da lợn', 'mỡ gà', 'táo',
+    'ớt chuông', 'khoai tây', 'củ cải đường', 'cá ngừ', 'cam',
+    'cá thu', 'khoai lang', 'cà rốt', 'dầu hào', 'thuốc lá',
+    'mứt', 'kem', 'dầu hướng dương', 'gạo', 'mỡ lợn',
+    'mít', 'tiêu', 'nước tăng lực', 'mỡ bò', 'dâu tây',
+    'ổi', 'cá trích', 'bia', 'óc lợn', 'kẹo',
+    'mật ong', 'tôm', 'quả lê', 'hạt hạnh nhân', 'bông cải xanh',
+    'dầu ngô', 'ngô', 'chuối', 'hạnh nhân', 'hạt điều',
+    'óc chó', 'gừng', 'quả óc chó', 'chân giò', 'thịt dê',
+    'mỡ cừu', 'da gà', 'tép', 'cua', 'ghẹ'
 }
 
 GIOITINH = ['Ông', 'Bà']

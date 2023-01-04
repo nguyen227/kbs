@@ -15,15 +15,15 @@ def luong_calo(bmr, bmi, mucdohd):
     time.sleep(1)
     bmr *= quy_doi_muc_do_hoat_dong(mucdohd)
     if(bmi < 20):
-        return bmr * 1.30
+        return bmr * 1.20
     elif(bmi < 25):
-        return bmr * 1.15
+        return bmr * 1.10
     elif(bmi <= 27):
         return bmr * 1
     elif(bmi <= 30):
-        return bmr * 0.85
+        return bmr * 0.90
     else:
-        return bmr * 0.70
+        return bmr * 0.80
 
 
 def quy_doi_muc_do_hoat_dong(mucdo):
@@ -59,6 +59,9 @@ def goiy_thucdon(benhmacphai):
     for benh in benhmacphai:
         nhom_tp_konen.update(data.BENH[benh].get('konen'))
 
+    for nhom_tp in nhom_tp_konen:
+        nhom_tp_nen.discard(nhom_tp)
+
     tp_nen = set()
     tp_konen = set()
 
@@ -70,7 +73,5 @@ def goiy_thucdon(benhmacphai):
 
     for tp in tp_konen:
         tp_nen.discard(tp)
-
-    tp_nen.discard(tp_konen)
 
     return tp_nen, tp_konen

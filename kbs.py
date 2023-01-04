@@ -20,18 +20,17 @@ def suggest():
     if(options):
         st.write(f'Bạn đang mắc bệnh {", ".join(list(options))}')
 
-    luong_calo_canthiet = luong_calo(chi_so_bmr, chi_so_bmi, mucdohoatdong)
-
+    luong_calo_khuyencao = luong_calo(chi_so_bmr, chi_so_bmi, mucdohoatdong)
     suggestion_progress.progress(90)
+    st.write(f'Lượng calo/ngày khuyến cáo: {round(luong_calo_khuyencao)}')
+
+    suggestion_progress.progress(95)
     if(tp_nendung):
         st.write(f'Nên bổ sung: {", ".join(list(tp_nendung))}')
 
-    suggestion_progress.progress(95)
+    suggestion_progress.progress(100)
     if(tp_konendung):
         st.write(f'Nên hạn chế: {", ".join(list(tp_konendung))}')
-
-    suggestion_progress.progress(100)
-    st.write(f'Lượng calo/ngày khuyến cáo: {round(luong_calo_canthiet)}')
 
 
 st.title('Thực đơn cho người cao tuổi sau ốm')
@@ -39,11 +38,11 @@ disable = False
 col1, col2 = st.columns(2)
 with col1:
     gioitinh = st.selectbox('Giới tính', data.GIOITINH, disabled=disable)
-    chieucao = st.number_input('Chiều cao', 1.0, 1.8, 1.5, disabled=disable)
+    chieucao = st.number_input('Chiều cao (m) - Từ 1.0m đến 1.8m', 1.0, 1.8, 1.5, disabled=disable)
     mucdohoatdong = st.selectbox('Mức độ hoạt động', data.MUCDOHOATDONG)
 with col2:
-    dotuoi = st.number_input('Tuổi', 60, 100, disabled=disable)
-    cannang = st.number_input('Cân nặng', 30.0, 100.0, 70.0, disabled=disable)
+    dotuoi = st.number_input('Tuổi - Từ 60 đến 110 tuổi', 60, 110, disabled=disable)
+    cannang = st.number_input('Cân nặng (kg) Từ 30.0kg đến 120.0kg', 30.0, 120.0, 70.0, disabled=disable)
 
 options = st.multiselect('Các bệnh mắc phải', data.BENH, disabled=disable)
 start = st.button('Bắt đầu')
